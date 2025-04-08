@@ -11,6 +11,14 @@
     --shadow: rgba(0, 0, 0, 0.1);
 }
 
+.override-contact {
+    color: white !important;
+}
+
+.override-contact:hover {
+    color: var(--primary-color) !important;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

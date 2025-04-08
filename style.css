@@ -711,3 +711,30 @@ textarea.form-control {
         padding: 1.5rem;
     }
 }
+
+.skill-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skill-pill {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease;
+}
+
+.skill-pill i {
+    margin-right: 8px;
+    color: #007bff; /* optional, you can customize icon color */
+}
+
+.skill-pill:hover {
+    background-color: #e0e0e0;
+}
